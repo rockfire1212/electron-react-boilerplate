@@ -26,9 +26,9 @@ module.exports = {
 			},
 		],
 	},
-	target: 'electron-renderer',
+	target: 'electron-api-test',
 	plugins: [
-		new HtmlWebpackPlugin({ title: ' Manage Pharma' }),
+		new HtmlWebpackPlugin({ title: ' Electron Api Test' }),
 		new webpack.DefinePlugin({
 			'process.env.NODE_ENV': JSON.stringify('development'),
 		}),
